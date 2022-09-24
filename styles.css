@@ -1,17 +1,77 @@
-.background {
+html, body, *{
   box-sizing: border-box;
   font-size: 62.5%;
-  margin-left: 2rem;
+  margin-left: 5px;
+  padding: 0;
+  font-family: 'Amatic SC', cursive;
 }
 
-
+.background {
+  display: flex;
+  justify-content: space-around;
+}
 
 .title {
-  background-color: plum;
+  font-size: 5rem;
   border-radius: 25px;
   border: 4px solid pink;
-  padding: 20px;
-  width: 20%;
-  height: 20%;
-  display: flex;
+  padding: 1rem;
+  width: 30vw;
+  height: 30vh;
+  margin: 1.2rem;
+  color: #fff;
+  box-shadow: 1rem 1rem plum;
+  text-align: center;
+  padding-top: 12.5rem;
+}
+
+.title:hover {
+  width: 32vw;
+  height: 32vh;
+  margin: 0%;
+  font-size: 5rem;
+  box-shadow: 1rem 1rem plum;
+}
+
+.title-1 {
+  background-image: url(img/paris.jpg);
+  background-position: center;
+}
+
+.title-2 {
+  background: url(img/madrid.jpg);
+}
+
+.title-3 {
+  background: url(img/london.jpg);
+  background-position-y: -30rem;
+}
+
+.title-4 {
+  background: url(img/new-york-city.jpg);
+  background-position: top;
+}
+
+.title-5 {
+  background: url(img/mexico-city.jpg);
+}
+
+.title-6 {
+  background: url(img/miami.jpg);
+  background-position: center;
+}
+
+.title-7 {
+  background: url(img/tokyo.jpg);
+  background-position: bottom;
+}
+
+.title-8 {
+  background: url(img/seoul.jpg);
+  background-position-y: -55rem;
+}
+
+.title-9 {
+  background: url(img/beijing.jpg);
+  background-position: center;
 }
