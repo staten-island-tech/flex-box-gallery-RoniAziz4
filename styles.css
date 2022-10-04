@@ -34,7 +34,6 @@ html, body, *{
   width: 32vw;
   height: 32vh;
   margin: 0%;
-  font-size: 5rem;
   box-shadow: 1rem 1rem magenta;
   font-size: 6rem;
 }
@@ -80,4 +79,20 @@ html, body, *{
 .title-9 {
   background: url(img/beijing.jpg);
   background-position: center;
+}
+
+@keyframes test{
+25%{
+  background-color: darkmagenta;
+}
+50%{
+  background-color: blueviolet;
+}
+75%{
+  background-color: blue;
+}
+100%{
+  background-color: aqua;
+}
+
 }
