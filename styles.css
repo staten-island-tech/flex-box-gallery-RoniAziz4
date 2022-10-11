@@ -4,9 +4,8 @@ html, body, *{
   margin-left: 5px;
   padding: 0;
   font-family: 'Amatic SC', cursive;
-  background: linear-gradient(0deg, #FFC0CB,	#FF1493, #C71585, #FF00FF);
-  animation: test 15s ease infinite;
-  
+  background-color: plum;
+  animation: test 5s ease infinite;
 }
 .background {
   display: flex;
@@ -36,6 +35,16 @@ html, body, *{
   margin: 0%;
   box-shadow: 1rem 1rem magenta;
   font-size: 6rem;
+  transform: translate(0,0);
+  clip-path: 
+    polygon(
+     0% var(--d), 
+     var(--d) 0%, 
+     100% 0%, 
+     100% calc(100% - var(--d)), 
+     calc(100% - var(--d)) 100%, 
+     0% 100%
+   );
 }
 
 .title-1 {
